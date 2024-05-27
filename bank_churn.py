@@ -3,8 +3,6 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 # Đọc dữ liệu và mô hình
 train_data = pd.read_csv('train.csv')
